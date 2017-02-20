@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "Thanks for installing mDNSFlush!"
+echo "I highly reccomend other hosts blocker developers implement this into their tweaks. This will keep your internet from not working when using a large hosts file."
+echo "You may fork the GitHub page to implement this."
+
+echo "Changing permissions of daemon..."
+chmod 0775 /etc/mDNSFlush
+echo "Changed mDNSFlush to world writable."
+echo "Changing file to executeable..."
+chmod +x /etc/mDNSFlush
+echo "Changed to executeable."
+echo "Chaging owner to root..."
+chown root:wheel /etc/mDNSFlush
+echo "Permissions are set..."
+
+./mDNSFlush
+
+echo "Done! You should probably reboot to start..."

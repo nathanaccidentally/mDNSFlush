@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Running mDNS flush daemon..."
+echo "This daemon will attempt to flush the cache of mDNSResponder and restart them. This should fix all network slowdowns/crashes. This is very experimental and may not work."
+
+killall -9 mDNSResponder
+echo "Attempted to kill mDNSResponder..."
+killall -9 discoveryd
+echo "Attempted to kill discoveryd..."
+
+echo "Should run again in 5 minutes. If this didn't work, try running as root."
+
+exit
