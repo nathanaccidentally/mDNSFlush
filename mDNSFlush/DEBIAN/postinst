@@ -1,7 +1,6 @@
 #!/bin/bash
 
 echo "Thanks for installing mDNSFlush!"
-echo "I highly reccomend other hosts blocker developers implement this into their tweaks. This will keep your internet from not working when using a large hosts file."
 echo "You may fork the GitHub page to implement this."
 
 echo "Changing permissions of daemon..."
