@@ -13,6 +13,6 @@ echo "Chaging owner to root..."
 chown root:wheel /etc/mDNSFlush
 echo "Permissions are set..."
 
-./mDNSFlush
+echo "Thanks for installing mDNSFlush!"
 
 echo "Done! You should probably reboot to start..."
