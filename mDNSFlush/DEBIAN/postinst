@@ -13,6 +13,13 @@ echo "Chaging owner to root..."
 chown root:wheel /etc/mDNSFlush
 echo "Permissions are set..."
 
-echo "Thanks for installing mDNSFlush!"
+
+file="/etc/SystemHostsBlocker"
+if [ -f "$file" ]
+then
+	echo "Thanks for having SystemHostsBlocker! It truly means a lot! Enjoy mDNSFlush!"
+else
+	echo "Thanks for grabbing mDNSFlush! You should also try SystemHostsBlocker!"
+fi
 
 echo "Done! You should probably reboot to start..."
