@@ -5,7 +5,7 @@
 	<key>Label</key>
 	<string>mDNSFlush</string>
 	<key>Program</key>
-	<string>/etc/SystemHostsBlocker/LaunchDaemons/mDNSFlush</string>
+	<string>/etc/mDNSFlush</string>
 	<key>UserName</key>
 	<string>root</string>
 	<key>GroupName</key>
