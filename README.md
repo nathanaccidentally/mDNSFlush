@@ -7,3 +7,8 @@ Incorperating this into your hosts file tweak means you can add over 3000 entrie
 This will also be released as a standalone tweak on my repo for the developers that do not want to implement this into their tweaks.
 
 **If you don't want to implement mDNSFlush directly into your tweak, you can add it as a dependency.**
+
+**Changelog v1.1:**
+
+1. Made a few small changes to make daemon less battery consuming and faster.
+2. Added check for SHB on install to say thanks!
