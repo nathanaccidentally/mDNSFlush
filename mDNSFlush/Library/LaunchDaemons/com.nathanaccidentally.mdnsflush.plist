@@ -13,6 +13,6 @@
 	<key>RunAtLoad</key>
 	<string>YES</string>
 	<key>StartInterval</key>
-	<string>300</string>
+	<string>480</string>
 </dict>
 </plist>
