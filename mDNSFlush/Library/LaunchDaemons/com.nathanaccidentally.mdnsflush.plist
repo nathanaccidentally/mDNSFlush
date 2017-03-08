@@ -2,17 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Label</key>
-	<string>mDNSFlush</string>
-	<key>Program</key>
-	<string>/etc/mDNSFlush</string>
-	<key>UserName</key>
-	<string>root</string>
 	<key>GroupName</key>
 	<string>wheel</string>
+	<key>Label</key>
+	<string>mDNSFlush</string>
+	<key>ProgramArguments</key>
+	<array>
+	<string>/etc/mDNSFlush</string>
+	</array>
 	<key>RunAtLoad</key>
-	<string>YES</string>
+	<true/>
 	<key>StartInterval</key>
-	<string>480</string>
+	<integer>480</integer>
+	<key>UserName</key>
+	<string>root</string>
 </dict>
 </plist>
