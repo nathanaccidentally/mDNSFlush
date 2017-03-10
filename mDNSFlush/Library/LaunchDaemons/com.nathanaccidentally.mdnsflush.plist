@@ -8,12 +8,12 @@
 	<string>mDNSFlush</string>
 	<key>ProgramArguments</key>
 	<array>
-	<string>/etc/mDNSFlush</string>
+		<string>/etc/mDNSFlush</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StartInterval</key>
-	<integer>480</integer>
+	<integer>43200</integer>
 	<key>UserName</key>
 	<string>root</string>
 </dict>

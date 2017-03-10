@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Running mDNSFlush daemon..."
-
+date >> /tmp/flush.log
 killall -9 mDNSResponder
 echo "Attempted to kill mDNSResponder..."
 killall -9 discoveryd
