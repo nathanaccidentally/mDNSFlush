@@ -13,7 +13,7 @@
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StartInterval</key>
-	<integer>43200</integer>
+	<integer>480</integer>
 	<key>UserName</key>
 	<string>root</string>
 </dict>
